@@ -1,25 +1,22 @@
-# VivaTerra Cameroun CRM
+# Family-finance- Repository
 
-This repository contains a minimal customer relationship management (CRM) application built with Flask.
+Ce dépôt contient un prototype Flask minimal historique, ainsi qu'une proposition d'architecture pour **Open Claw**, une application iOS hybride de gestion de dépôts avec agents IA open source.
 
-## Features
+## Document de conception Open Claw
 
-- Manage client records (add, list, delete)
-- Uses SQLite for data storage
-- Simple REST style API
+- Voir `docs/open-claw-ios-architecture.md` pour l'architecture modulaire, la sécurité, les optimisations iOS et la roadmap d'implémentation.
 
-## Quick start
+## Prototype Flask existant
+
+### Démarrage rapide
 
 ```bash
 pip install -r requirements.txt
-python -m crm.app  # starts the development server
+python -m crm.app
 ```
 
-Running tests:
+### Tests
 
 ```bash
 pytest
 ```
-
-The application will create `crm.db` automatically on first run.
-
